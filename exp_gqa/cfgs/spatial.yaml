@@ -1,0 +1,8 @@
+FEAT_TYPE: spatial  # using released GQA spatial features
+D_FEAT: 2112  # 2048 (ResNet) + 64 (positional encoding)
+H_FEAT: 7
+W_FEAT: 7
+TRAIN:
+  LOSS_TYPE: sigmoid
+TEST:
+  ITER: 100000

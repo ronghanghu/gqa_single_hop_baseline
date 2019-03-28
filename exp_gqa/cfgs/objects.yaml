@@ -1,0 +1,8 @@
+FEAT_TYPE: objects  # using released GQA objects features
+D_FEAT: 2112  # 2048 (ResNet) + 64 (tiled bounding boxes)
+H_FEAT: 1  # the 'objects' features are 1-D vectors
+W_FEAT: 100  # 100 objects in the released GQA features
+TRAIN:
+  LOSS_TYPE: sigmoid
+TEST:
+  ITER: 100000
